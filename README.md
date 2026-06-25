@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+# PopX React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive user registration and profile management application built with React.js. The application allows users to create an account, provide personal information, and view their profile through a clean and intuitive user interface.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+Add your deployment URL here:
 
-### `npm start`
+```text
+https://your-app.vercel.app
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+### Landing Screen
+<img width="1917" height="1078" alt="Screenshot 2026-06-25 201829" src="https://github.com/user-attachments/assets/a6484c2c-e054-4573-a51b-c86a2a797233" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Signup Screen
+<img width="1917" height="1078" alt="Screenshot 2026-06-25 201835" src="https://github.com/user-attachments/assets/94b5ebb8-17fe-4d03-8b71-677c8d88470c" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login Screen
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1917" height="1078" alt="Screenshot 2026-06-25 201847" src="https://github.com/user-attachments/assets/67e04759-ebff-463b-9419-196967c84ca9" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Profile Screen
+<img width="1917" height="1078" alt="Screenshot 2026-06-25 201840" src="https://github.com/user-attachments/assets/a93f7480-4b10-4319-8294-8c4a6099acf6" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ✨ Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Responsive mobile-first design
+* User registration form
+* Profile information management
+* Reusable React components
+* Clean and modern UI
+* Client-side navigation
+* Component-based architecture
+* Easy deployment with Vercel and Netlify
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Tech Stack
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-### Making a Progressive Web App
+### State Management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* React Hooks (`useState`)
 
-### Advanced Configuration
+### Version Control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Git
+* GitHub
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Vercel
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Landing.js
+│   ├── Signup.js
+│   └── Profile.js
+│   └── Login.js
+│
+├── App.jsx
+├── index.js
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/gadadasu-jahnavi/popx-react
+```
+
+### Navigate to Project Folder
+
+```bash
+cd popx-react
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+This generates an optimized production build.
+
+---
+
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Configure build settings:
+
+```text
+Build Command: npm run build
+Output Directory: build
+```
+
+
+
+## 🎯 Learning Objectives
+
+This project demonstrates:
+
+* React component architecture
+* State management using Hooks
+* Form handling and validation concepts
+* Responsive UI design
+* Modern frontend development practices
+* Deployment workflows
+
+---
+
+## 📈 Future Improvements
+
+* Authentication system
+* Backend integration
+* Database connectivity
+* Form validation
+* User profile editing
+* Image upload functionality
+* API integration
+* Dark mode support
