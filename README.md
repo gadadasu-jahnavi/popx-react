@@ -77,7 +77,7 @@ https://your-app.vercel.app
 ```text
 src/
 │
-├── components/
+├── screens/
 │   ├── Landing.js
 │   ├── Signup.js
 │   └── Profile.js
